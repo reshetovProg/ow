@@ -5,9 +5,11 @@ spring:
     url: ${OWNER_URL}
     username: ${OWNER_USERNAME}
     password: ${OWNER_PASSWORD}
-  jpa:
-    hibernate:
-      ddl-auto: create-drop
+#  jpa:
+#    hibernate:
+#      ddl-auto: create-drop
+  liquibase:
+    enabled: true
 
 logging:
   level:

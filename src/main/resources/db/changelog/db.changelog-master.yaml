@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/create-home-table.sql
+  - include:
+      file: db/changelog/changeset/create-passport-table.sql
+  - include:
+      file: db/changelog/changeset/create-user-table.sql
