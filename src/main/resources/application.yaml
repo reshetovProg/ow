@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: owner
+  datasource:
+    url: ${OWNER_URL}
+    username: ${OWNER_USERNAME}
+    password: ${OWNER_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+logging:
+  level:
+    org.springframework.web: ERROR
